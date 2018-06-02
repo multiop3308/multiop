@@ -21,14 +21,18 @@ namespace Semipermutation
         {
             if (Regex.IsMatch(s, "[^0-7 ]"))
             {
-                Console.WriteLine("Error! The multioperation \"{0}\" values must be of[0 - 7]", s);
-            return false;
+                Console.WriteLine("Ошибка! Компоненты мультиоперации должны быть [0-7]", s);
+                Console.Read();
+                System.Environment.Exit(1);
+                return false;
             }
             s = s.Replace(" ", string.Empty);
             if (!IsCorrentLength(s))
             {
-                Console.WriteLine("Error! The length of the string \"{0}\" must be a power of 3", s);
-            return false;
+                Console.WriteLine("Ошибка! Длина строки \"{0}\" должна быть кратна 3", s);
+                Console.Read();
+                System.Environment.Exit(1);
+                return false;   
             }
             return true;
         }

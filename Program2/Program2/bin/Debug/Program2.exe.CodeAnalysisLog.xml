@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\Romcheg\source\repos\Program2\Program2\bin\Debug\Program2.exe">
+   <Modules>
+    <Module Name="program2.exe">
+     <Namespaces>
+      <Namespace Name="Semipermutation">
+       <Types>
+        <Type Name="Multioperation3Utils" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CheckInputString(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Задайте правильные аргументы для методов форматирования" Category="Microsoft.Usage" CheckId="CA2241" Status="Active" Created="2018-06-02 06:26:51Z" FixCategory="DependsOnFix">
+             <Issue Name="MissingFormatItem" Certainty="75" Level="Warning" Path="C:\Users\Romcheg\source\repos\Program2\Program2" File="Multioperation4.cs" Line="24">Метод 'Multioperation3Utils.CheckInputString(string)' вызывает 'Console.WriteLine(string, object)', но не предоставляет элемента формата для аргумента "1". Указанная строка формата: ""Ошибка! Компоненты мультиоперации должны быть [0-7]""</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Задайте правильные аргументы для методов форматирования" Category="Microsoft.Usage" CheckId="CA2241">
+   <Name>Задайте правильные аргументы для методов форматирования</Name>
+   <Description>Предоставьте корректное число аргументов для вызовов String.Format.</Description>
+   <Resolution Name="MissingFormatItem">Метод {0} вызывает {1}, но не предоставляет элемента формата для аргумента {2}. Указанная строка формата: "{3}"</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182361.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Категория</String>
+  <String Key="Certainty">Достоверность</String>
+  <String Key="CollapseAll">Свернуть все</String>
+  <String Key="CheckId">ИД проверки</String>
+  <String Key="Error">Ошибка</String>
+  <String Key="Errors">ошибки</String>
+  <String Key="ExpandAll">Развернуть все</String>
+  <String Key="Help">Справка</String>
+  <String Key="Line">Строка</String>
+  <String Key="Messages">сообщения</String>
+  <String Key="LocationNotStoredInPdb">[расположение не сохранено в PDB]</String>
+  <String Key="Project">Проект</String>
+  <String Key="Resolution">Разрешение</String>
+  <String Key="Rule">Правило</String>
+  <String Key="RuleFile">Файл правил</String>
+  <String Key="RuleDescription">Описание правила</String>
+  <String Key="Source">Источник</String>
+  <String Key="Status">Состояние</String>
+  <String Key="Target">Цель</String>
+  <String Key="Warning">Предупреждение</String>
+  <String Key="Warnings">предупреждения</String>
+  <String Key="ReportTitle">Отчет по анализу кода</String>
+ </Localized>
+</FxCopReport>
