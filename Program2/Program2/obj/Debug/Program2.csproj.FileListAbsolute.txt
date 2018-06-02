@@ -1,0 +1,7 @@
+C:\Users\Romcheg\source\repos\Program2\Program2\bin\Debug\Program2.exe.config
+C:\Users\Romcheg\source\repos\Program2\Program2\bin\Debug\Program2.exe
+C:\Users\Romcheg\source\repos\Program2\Program2\bin\Debug\Program2.pdb
+C:\Users\Romcheg\source\repos\Program2\Program2\obj\Debug\Program2.csprojAssemblyReference.cache
+C:\Users\Romcheg\source\repos\Program2\Program2\obj\Debug\Program2.csproj.CoreCompileInputs.cache
+C:\Users\Romcheg\source\repos\Program2\Program2\obj\Debug\Program2.exe
+C:\Users\Romcheg\source\repos\Program2\Program2\obj\Debug\Program2.pdb
