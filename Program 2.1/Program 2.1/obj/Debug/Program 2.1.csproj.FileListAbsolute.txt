@@ -1,0 +1,10 @@
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\bin\Debug\Program 2.1.exe.config
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\bin\Debug\Program 2.1.exe
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\bin\Debug\Program 2.1.pdb
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\obj\Debug\Program 2.1.csprojAssemblyReference.cache
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\obj\Debug\Program_2._1.Properties.Resources.resources
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\obj\Debug\Program 2.1.csproj.GenerateResource.cache
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\obj\Debug\Program 2.1.csproj.CoreCompileInputs.cache
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\obj\Debug\Program 2.1.exe
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\obj\Debug\Program 2.1.pdb
+C:\Users\Romcheg\source\repos\Program 2.1\Program 2.1\obj\Debug\Program_2._1.SIoP.resources
